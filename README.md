@@ -1,50 +1,14 @@
-# React Todo App with API (complete)
+# HTML/CSS Showcase Landing Page Repository
+Welcome to my HTML/CSS Showcase Landing Page Repository! This repository contains the code for a dynamic and visually appealing landing page, designed to highlight my expertise in HTML, CSS, and SASS.
 
-It is the third part of the React Todo App with API.
+## About This Project
+As an enthusiastic web developer, I've developed this landing page to exhibit my proficiency in front-end technologies and my capability to create engaging user experiences. This project features clean and semantic HTML, sophisticated CSS/SASS styling, and demonstrates my commitment to quality and detail.
 
-Take your code implemented for [Add and Delete](https://github.com/mate-academy/react_todo-app-add-and-delete)
-and implement the ability to toggle and rename todos.
+## Key Features
+- Semantic HTML Structure: The landing page is constructed with a well-organized and semantic HTML layout, enhancing accessibility and search engine optimization.
+- Responsive Design: With CSS media queries and flexible layouts, the landing page adapts seamlessly to various screen sizes and devices, ensuring a consistent user experience.
+- SASS Styling: Utilizing the SASS preprocessor, the CSS codebase is organized, modular, and maintainable, showcasing my ability to write scalable and efficient stylesheets.
+- Interactive Elements: User engagement is elevated with interactive features such as smooth transitions, hover effects, and animated components that make the landing page vibrant and lively.
 
-> Here is [the working example](https://mate-academy.github.io/react_todo-app-with-api/)
-
-## Toggling a todo status
-
-Toggle the `completed` status on `TodoStatus` change:
-- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
-- covered the todo with a loader overlay while waiting for API response;
-- the status should be changed on success;
-- show the `Unable to update a todo` notification in case of API error.
-
-Add the ability to toggle the completed status of all the todos with the `toggleAll` checkbox:
-
-- `toggleAll` button should have `active` class only if all the todos are completed;
-- `toggleAll` click changes its status to the opposite one, and sets this new status to all the todos;
-- it should work the same as several individual updates of the todos which statuses were actually changed;
-- do send requests for the todos that were not changed;
-
-## Renaming a todo
-
-Implement the ability to edit a todo title on double click:
-
-- show the edit form instead of the title and remove button;
-- saves changes on the form submit (just press `Enter`);
-- save changes when the field loses focus (`onBlur`);
-- if the new title is the same as the old one just cancel editing;
-- cancel editing on `Esс` key `keyup` event;
-- if the new title is empty delete the todo the same way the `x` button does it;
-- if the title was changed show the loader while waiting for the API response;
-- update the todo title on success;
-- show `Unable to update a todo` in case of API error;
-- or the deletion error message if we tried to delete the todo.
-
-## If you want to enable tests
-- open `cypress/integration/page.spec.js`
-- replace `describe.skip` with `describe` for the root `describe`
-
-> ❗❗All tests should pass, even if some behaviour in not well explained in the task❗❗
-
-## Instructions
-
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
-- Use the [React TypeScript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript).
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_todo-app-with-api/) and add it to the PR description.
+## How to Interact
+View the Live Demo: Explore the live demo of my landing page [here](https://weswojciech.github.io/layout_miami/).
